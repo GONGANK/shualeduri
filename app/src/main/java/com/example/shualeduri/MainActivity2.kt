@@ -12,7 +12,6 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-        //go-back button
         val button3 = findViewById<ImageButton>(R.id.imageButton3)
         button3.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
